@@ -1,0 +1,8 @@
+{
+	"name" : "gtkdtest",
+	"description" : "Hello World - A minimal DUB bundle.",
+	"dependencies" : {
+		"gtk-d:gtkd":"~Gtk2"
+	},
+	"dflags-windows-x86-dmd":["-m32mscoff"]
+}
